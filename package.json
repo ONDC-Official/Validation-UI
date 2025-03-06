@@ -1,0 +1,52 @@
+{
+  "name": "ondc-crypt-web-util",
+  "private": true,
+  "version": "0.0.4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "@tippyjs/react": "^4.2.6",
+    "@uiw/react-json-view": "^2.0.0-alpha.25",
+    "axios": "^1.7.2",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.2.0",
+    "js-yaml": "^4.1.0",
+    "loadash": "^1.0.0",
+    "node-forge": "^1.3.1",
+    "ondc-crypto-sdk-nodejs": "^2.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
+    "react-icons": "^5.2.1",
+    "react-transition-group": "^4.4.5",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/js-yaml": "^4.0.9",
+    "@types/libsodium-wrappers": "^0.7.14",
+    "@types/node-forge": "^1.3.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-transition-group": "^4.4.10",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  }
+}
