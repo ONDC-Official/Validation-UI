@@ -3,7 +3,6 @@ import { AppContext } from "../context/AppContext";
 import ApiDataViewer from "./apiDataViwer";
 import { TestArray, TestObject, ValidationConfig } from "../types/config-types";
 import { flattenRecord } from "../utils/generalUtils";
-import { set } from "react-hook-form";
 
 export default function DataController() {
 	const appContext = useContext(AppContext);

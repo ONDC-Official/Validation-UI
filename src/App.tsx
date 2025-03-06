@@ -8,8 +8,8 @@ import DataController from "./components/dataController";
 
 function App() {
 	const [data, setData] = useState<ValidationConfig | undefined>(undefined);
-	const [givenApis, setGivenApis] = useState<string[]>([]);
-	console.log(data);
+	const [givenApis,setGivenApis] = useState<string[]>([]);
+	console.log(data,givenApis);
 	return (
 		<AppContext.Provider
 			value={{

@@ -1,5 +1,4 @@
 import AttributeList from "./testCard";
-import { TestArray } from "../types/config-types";
 import { ViewMetaData } from "./dataController";
 
 interface ApiDataViewerProps {
